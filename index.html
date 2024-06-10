@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Story</title>
+    <link rel="stylesheet" href="ct.css">
+</head>
+<body>
+    <div class="container">
+        <h1>How are you feeling today?</h1>
+        <select id="mood">
+            <option value="horror">Horror</option>
+            <option value="happy">Happy</option>
+            <option value="sad">Sad</option>
+            <option value="angry">Angry</option>
+            <option value="excited">Excited</option>
+        </select>
+        <button onclick="getStory()">Get Story</button>
+        <div id="story-container"></div>
+    </div>
+
+    <script src="ct.js"></script>
+</body>
+</html>
